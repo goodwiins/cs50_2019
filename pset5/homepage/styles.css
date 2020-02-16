@@ -1,0 +1,26 @@
+.card-body {
+    color: blue;
+    font-weight: bold;
+    margin-top: 100px;
+}
+h1 {
+  color: green;
+  font-size: medium;
+}
+#lol{
+    font-size: medium;
+
+
+}
+body{
+  border: 1px solid white;
+  border-radius: 50%; }
+img {
+    width: 40%;
+    display: block;
+    margin: auto; }
+#mycat{
+
+    font-size: 20px;
+
+}

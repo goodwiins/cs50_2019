@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name </th>
+          <th scope="col">emailk</th>
+          <th scope="col">gender</th>
+          <th scope="col">grade</th>
+        </tr>
+    </thead>
+    <tbody>
+ {% for datas in data %}
+            <tr>
+                <td>{{ data["firstname"] }}</td>
+                <td>{{ data["lastname"] }}</td>
+            </tr>
+            {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
